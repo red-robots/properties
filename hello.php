@@ -72,7 +72,7 @@ function properties_func( $atts ) {
 	if ($wp_query->have_posts()) : ?>
 
 		
-		<h4 class="uagb-heading-text capitalize"><?php echo $term->slug; ?></h2>
+		<h4 class="uagb-heading-text capitalize"><?php echo $term->name; ?></h2>
 		
 		<section class="prop-row">
 
